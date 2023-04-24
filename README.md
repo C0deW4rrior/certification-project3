@@ -2,5 +2,7 @@
 freeCodeCamp Responsive Web Design - Certification Project 3
 
 👷‍♂️ Technical Documentation Page
-CSS Documentation used
-Page with a menu
+CSS Documentation
+
+Documentation page with a menu
+Only HMTL & CSS used
