@@ -1,0 +1,111 @@
+html, 
+body {
+    color: #ffffff;
+    background-color: #181818;
+    font-family: Segoe UI,system-ui,-apple-system,sans-serif;
+    line-height: 1.5;
+}
+
+#navbar {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 300px;
+    height: 100%;
+}
+
+#navbar a {
+    display: block;
+    color:#ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+#navbar ul {
+    padding: 0;
+    overflow: auto;
+}
+
+#navbar li {
+    list-style: none;
+    width: 100%;
+}
+
+#navbar li a:hover {
+    background-color: #303030;
+}
+
+#navbar li a:active {
+    border-left: 6px solid;
+    border-color: yellow;
+}
+
+header {
+    text-align: center;
+    font-size: 2rem;
+    margin: 8px;
+}
+
+section article {
+    margin: 10px;
+}
+
+#main-doc {
+    position: absolute;
+    margin-left: 300px;
+    padding: 20px;
+}
+
+pre {
+    font-family: monospace;
+}
+
+code {
+    display: block;
+    color: #FFCB64;
+    background-color: #303030;
+    border-radius: 8px;
+    text-align: left;
+    padding: 15px;
+    margin: 10px;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    overflow: auto;
+}
+
+.braces {
+    color: #FFF000;
+}
+
+.punctuation {
+    color: #FFffff;
+}
+
+.property {
+    color: #54CBFF;
+}
+
+.comment {
+    color: #07A400;
+}
+
+@media only screen and (max-width: 768px) {
+    #navbar ul {
+        height: 300;
+    }
+    #navbar {
+        position: absolute;
+        max-height: 312px;
+        margin: 0;
+        width: 100%;
+        z-index: 1;
+    }
+
+    #main-doc {
+        position: relative;
+        margin-left: 0;
+        margin-top: 340px;
+    }
+}
+
